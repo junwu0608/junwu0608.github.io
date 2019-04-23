@@ -1,6 +1,6 @@
 # Site settings
-title: Junwu Blog
-SEOTitle: 挽梦书斋 | Junwu Blog
+title: 挽梦书斋
+SEOTitle: Junwu Blog
 header-img: img/post-bg-desk.jpg
 email: junwu.wan@outlook.com
 description: "个人Blog，俗事闲谈。"
@@ -18,12 +18,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
+# weibo_username:     
 zhihu_username:     
 github_username:    
 facebook_username:  
 jianshu_username:   
-#twitter_username:   qiubaiying
+#twitter_username:   
 
 
 
@@ -57,11 +57,11 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: junwu
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
   repo: qiubaiying.github.io    #仓库名称
