@@ -7,7 +7,7 @@ description: "个人Blog，俗事闲谈。"
 keyword: "Junwu, Junwu Blog, 挽梦书斋, 闲谈, 编程, iOS, PC, Apple, iPhone"
 url: "https://junwu0608.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/junwu0608/junwu0608.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -17,13 +17,9 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 
 # SNS settings
-RSS: false
-# weibo_username:     
-zhihu_username:     
-github_username:    
-facebook_username:  
-jianshu_username:   
-#twitter_username:   
+RSS: true     
+github_username:    junwu0608
+telegram_username:     junwu
 
 
 
@@ -31,7 +27,7 @@ jianshu_username:
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
-paginate: 10
+paginate: 100
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -57,7 +53,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: junwu
+# disqus_username: junwu
 
 # Gitalk
 gitalk:
@@ -86,7 +82,7 @@ ga_domain: auto               # 默认的是 auto, 这里我是自定义了的�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -99,16 +95,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "",
+        href: ""
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "",
+        href: ""
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "",
+        href: ""
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "",
+        href: ""
     }
 ]
